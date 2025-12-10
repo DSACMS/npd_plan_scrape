@@ -1,6 +1,7 @@
 {
   "name": "npd_plan_scrape",
-  "description": "Prototype for identifying and ingesting healthcare provider information",
+  "version": "",
+  "description": "plan scrape prototype",
   "longDescription": "This project is designed to identify and ingest healthcare provider network information from various payer (insurance company) sources. The process is broken down into several steps, from discovering potential API endpoints to downloading and normalizing the data from those endpoints.",
   "status": "production",
   "permissions": {
@@ -15,13 +16,17 @@
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/npd_plan_scrape",
-  "projectURL": "",
   "repositoryHost": "github.com/DSACMS",
   "repositoryVisibility": "public",
+  "homepageURL": "",
+  "downloadURL": "",
+  "disclaimerURL": "",
+  "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 3233,
+  "laborHours": 3065,
   "reuseFrequency": {
-    "forks": 0
+    "forks": 0,
+    "clones": 0
   },
   "platforms": [
     "windows",
@@ -37,11 +42,17 @@
     "Shell"
   ],
   "maintenance": "internal",
-  "contractNumber": "0",
+  "contractNumber": [
+    "0"
+  ],
+  "SBOM": "https://github.com/DSACMS/npd_plan_scrape/network/dependencies",
+  "relatedCode": [],
+  "reusedCode": [],
+  "partners": [],
   "date": {
     "created": "2025-07-22T19:55:43Z",
-    "lastModified": "2025-07-28T13:04:25Z",
-    "metaDataLastUpdated": "2025-07-30T14:38:16.343Z"
+    "lastModified": "2025-12-08T06:58:40Z",
+    "metadataLastUpdated": "2025-12-08T06:59:50.248Z"
   },
   "tags": [
     "provider",
@@ -53,9 +64,8 @@
     "email": "opensource@cms.hhs.gov",
     "name": "Remy DeCausemaker"
   },
-  "feedbackMechanisms": [
-    "https://github.com/DSACMS/npd_plan_scrape/issues"
-  ],
+  "feedbackMechanism": "https://github.com/DSACMS/npd_plan_scrape/issues",
+  "AIUseCaseID": "0",
   "localisation": false,
   "repositoryType": "tools",
   "userInput": true,
@@ -65,12 +75,11 @@
     "National Provider Directory"
   ],
   "systems": [],
-  "upstream": "https://github.com/DSACMS/npd_plan_scrape/network/dependencies",
   "subsetInHealthcare": [
     "operational"
   ],
   "userType": [
     "government"
   ],
-  "maturityModelTier": 0
+  "maturityModelTier": 2
 }
